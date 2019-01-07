@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_Kr61UBKREemuausxT8kpIw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_NAFQUBKREemuausxT8kpIw" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_WVAYUBKREemuausxT8kpIw" elementId="com.vogella.plugin.partdescriptor.partdescriptor.e4Part" label="e4 Part" contributionURI="bundleclass://com.vogella.plugin.partdescriptor/com.vogella.ide.ui.PartEclipse4x"/>
+  </fragments>
+</fragment:ModelFragments>
