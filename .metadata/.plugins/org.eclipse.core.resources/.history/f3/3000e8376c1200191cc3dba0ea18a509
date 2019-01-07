@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Custom IDE" uid="ide" id="com.vogella.ide.test.customide" application="org.eclipse.ui.ide.workbench" useFeatures="true" includeLaunchers="true">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="com.vogella.ide.feature" version="1.0.0.qualifier"/>
+      <feature id="org.eclipse.platform" version="4.10.0.v20181206-0815"/>
+   </features>
+
+
+</product>
