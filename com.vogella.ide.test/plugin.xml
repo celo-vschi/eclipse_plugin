@@ -15,10 +15,10 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.ui.ide.workbench"
-            name="Custom IDE">
+            name="CustomIDE">
          <property
                name="appName"
-               value="Custom IDE">
+               value="CustomIDE">
          </property>
       </product>
    </extension>
