@@ -17,7 +17,7 @@ public class SampleView {
 
 	@PostConstruct
 	public void createPartControl(Composite parent) {
-		System.out.println("Enter in SampleE4View postConstruct");
+		System.out.println("Enter in SampleE4View postConstruct!");
 
 		myLabelInView = new Label(parent, SWT.BORDER);
 		myLabelInView.setText("This is a sample E4 view");
