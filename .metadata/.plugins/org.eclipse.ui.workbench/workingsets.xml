@@ -5,4 +5,5 @@
 <item elementID="=com.vogella.ide.test/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1546857374763_2" label="Window Working Set" name="Aggregate for window 1546857374763"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1546861811290_3" label="Window Working Set" name="Aggregate for window 1546861811290"/>
 </workingSetManager>
