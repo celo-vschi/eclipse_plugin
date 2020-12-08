@@ -15,8 +15,7 @@ import org.json.simple.parser.ParseException;
 
 public class GitRequestExample {
 
-	private static final String URL_ALL_COMMITS = "https://api.github.com/repos/celo-vschi/eclipse_plugin/commits";
-	private static final String URL_COMMIT = "https://api.github.com/repos/celo-vschi/eclipse_plugin/commits/";
+	private static final String URL_COMMIT = "https://api.github.com/repos/celo-vschi/eclipse_plugin/commits";
 
 	private static final String USERNAME = "celovschiandrei@gmail.com";
 	private static final String PASSWORD = "sugipulamuielacacat";
@@ -28,7 +27,7 @@ public class GitRequestExample {
 
 	private static void git() {
 		try {
-			String commits = sendGET(URL_ALL_COMMITS);
+			String commits = sendGET(URL_COMMIT);
 			parseAllCommits(commits);
 		} catch (IOException | ParseException e) {
 			e.printStackTrace();
@@ -51,7 +50,7 @@ public class GitRequestExample {
 
 	private static void parseCommit(String sha) {
 		try {
-			String commit = sendGET(URL_COMMIT + sha);
+			String commit = sendGET(URL_COMMIT + "/" + sha);
 
 			JSONParser parser = new JSONParser();
 			JSONObject object = (JSONObject) parser.parse(commit);
