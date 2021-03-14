@@ -18,7 +18,7 @@ public class GitRequestExample {
 	private static final String URL_COMMIT = "https://api.github.com/repos/celo-vschi/eclipse_plugin/commits";
 
 	private static final String USERNAME = "celovschiandrei@gmail.com";
-	private static final String PASSWORD = "sugipulamuielacacat";
+	private static final String PASSWORD = ""; //TODO add password
 	
 
 	public static void main(String[] args) throws IOException {
